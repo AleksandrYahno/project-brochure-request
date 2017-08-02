@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: #719EBB;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.header {
+    background: url(/images/masthead.png) no-repeat;
+    padding: 12px 10px 0 10px;
+}
+
+.logo-left {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-text {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}
+
+.header-text a {
+    text-decoration: none;
+    font: normal 24px/27px MyriadProSemibold, sans-serif;
+    font-weight: 600;
+    color: #1a2853;
+}
+
+.header-text a span:last-child {
+    text-transform: uppercase;
+}
+
+.header-text h5 {
+    font: normal 12px/19px MyriadProSemibold,sans-serif;
+    color: #7e8285;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 6px 0 0 0;
+    font-weight: 500;
+}
+
+.logo-right {
+    display: inline-block;
+    margin-left: 134px;
+}
+
+.first-text-container {
+    background: #DFE6EC;
+    padding: 10px 370px 20px 30px ;
+}
+
+.first-text-container span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Verdana, sans-serif;
+}
+
+.first-text-container li {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: -18px;
+}
+
+
+.second-text-container {
+    padding-right: 300px;
+}
+
+.container {
+    position: relative;
+    padding: 20px 10px;
+}
+
+.form-container {
+    display: inline-block;
+    width: 310px;
+    height: 556px;
+    background: #568377;
+    padding: 0px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin: 20px 30px 30px 30px;
+    box-shadow: 0px 4px 20px 5px #C1BBBB;
+}
