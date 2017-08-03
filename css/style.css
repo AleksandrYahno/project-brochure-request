@@ -1,12 +1,15 @@
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     background: #719EBB;
+    margin: 0;
 }
 
 .wrapper {
     width: 900px;
     margin: 0 auto;
     background: #fff;
+    color: #1a2853;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 20px 5px #6082A0;
 }
 
 .header {
@@ -37,7 +40,7 @@ body {
 }
 
 .header-text h5 {
-    font: normal 12px/19px MyriadProSemibold,sans-serif;
+    font: normal 12px/19px MyriadProSemibold, sans-serif;
     color: #7e8285;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -50,43 +53,190 @@ body {
     margin-left: 134px;
 }
 
-.first-text-container {
-    background: #DFE6EC;
-    padding: 10px 370px 20px 30px ;
+
+/*end header*/
+
+.container {
+    position: relative;
+    padding: 20px 10px 10px 10px;
 }
 
-.first-text-container span {
+.text-container {
+    background: #DFE6EC;
+    padding: 10px 370px 4px 30px;
+}
+
+.bg-white {
+    background: #fff;
+    margin-top: 10px;
+}
+
+.container .bg-white span {
+    font-size: 14px;
+}
+
+.text-container span {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     font-family: Verdana, sans-serif;
 }
 
-.first-text-container li {
-    font-size: 14px;
+.text-container li {
+    font-size: 13px;
     line-height: 24px;
-    margin-left: -18px;
-}
-
-
-.second-text-container {
-    padding-right: 300px;
-}
-
-.container {
-    position: relative;
-    padding: 20px 10px;
+    margin-left: -20px;
 }
 
 .form-container {
     display: inline-block;
     width: 310px;
     height: 556px;
-    background: #568377;
     padding: 0px;
     position: absolute;
     top: 20px;
-    right: 0;
+    right: 10px;
     margin: 20px 30px 30px 30px;
     box-shadow: 0px 4px 20px 5px #C1BBBB;
+    background: #fff;
 }
+
+.form-banner {
+    background: #CD1920;
+    color: #fff;
+    min-height: 110px;
+    margin: -2px 0 0 0;
+    text-align: center;
+}
+
+.form-banner span:first-child {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.form-banner span:last-child {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.form-input {
+    border-left: 5px solid #DFE6EC;
+    border-right: 5px solid #DFE6EC;
+    border-bottom: 5px solid #DFE6EC;
+    height: 230px;
+    padding: 20px 0 20px 20px;
+}
+
+.form-input span {
+    color: #CC0033;
+    font-size: 12px;
+}
+
+.form-input p {
+    margin: 8px 0;
+}
+
+.form-input p:after {
+    display: inline-block;
+    content: "\274B";
+    color: #D01241;
+    font-size: 8px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+::-webkit-input-placeholder {
+    color: #CBCBCB;
+}
+
+.form-input input {
+    width: 230px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #D0D0D0;
+    padding: 2px 0 2px 10px;
+    font-size: 13px
+}
+
+.form-input select {
+    width: 242px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #D0D0D0;
+    padding: 2px 0 2px 10px;
+    font-size: 13px;
+    background: #fff;
+    margin: 0;
+}
+
+.form-input button {
+    width: 242px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to bottom, #118FCF, #1160CF);
+    font-size: 16px;
+    font-weight: 800;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.advertising-container {
+    margin: 30px 30px 10px 30px;
+}
+
+.advertising-container span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.advertising-container img {
+    margin: 20px auto;
+}
+
+.bottom-text-container {
+    background: #DFE6EC;
+    min-height: 194px;
+}
+
+.bottom-text {
+    display: inline-block;
+    width: 49%;
+}
+
+.bottom-text p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px 20px 0 20px;
+    margin-bottom: 0;
+}
+
+.bottom-text span {
+    font-size: 12px;
+    margin: 20px;
+    line-height: 30px;
+}
+
+
+/*end container*/
+
+.footer a {
+    text-decoration: none;
+    color: #DEE5EB;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    line-height: 26px;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+/*end footer*/
